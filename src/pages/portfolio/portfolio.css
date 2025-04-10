@@ -41,7 +41,7 @@
     background-color: hsla(0,0%,0%,0.7);
     z-index: 1000;
     place-items: center;
-    padding: 85px;
+    padding: 85px 15px;
 }
 .portfolio__modal-content{
     background-color: var(--container-color);
