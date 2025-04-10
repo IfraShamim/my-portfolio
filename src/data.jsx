@@ -9,12 +9,12 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from './assets/project-1.png';
+import Work2 from './assets/project-2.png';
+import Work3 from './assets/project-3.png';
+import Work4 from './assets/project-4.png';
+import Work5 from './assets/project-5.png';
+import Work6 from './assets/project-6.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -151,55 +151,56 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: 'May 2024 - PRESENT',
+    title: 'Lead Trainer <span> SMIT </span>',
+    desc: 'Delivered training sessions on web development technologies.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: 'Jan 2024 - March 2024',
+    title: 'Front End Developer <span> CBS Pakistan Internship </span>',
+    desc: 'Developed responsive web applications using modern frontend technologies.',
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2018 - 2022',
+    title: 'Computer Science Instructor <span> Al-Hera Secondary School </span>',
+    desc: 'Successfully taught core Computer Science concepts to students, ensuring a strong foundation in programming,algorithms.',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2012',
+    title: 'BSCS Degree <span> Sindh Madressatul Islam University </span>',
+    desc: 'Final Year Project: "Generative Text To Speech In URdu" using Flask,Python,and Tensorflow.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2018-2020',
+    title: 'Intermediate - Pre Engineering <span> PECHS Govt. Degree Girls College </span>',
+    desc: 'Got 79% , A Grade',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2016-2018',
+    title: 'Matriculation - Pre Medical <span> Millenniums Education System </span>',
+    desc: 'Got 87% , A+ Grade',
   },
+
 ];
 
 export const skills = [
@@ -247,7 +248,7 @@ export const skills = [
 
   {
     id: 8,
-    title: 'C++',
+    title: 'Node Js',
     percentage: '65',
   },
 ];
@@ -256,27 +257,22 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'MS Word Clone',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'MS Word Clone',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html5,Css3,ES6',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://ifrashamim.github.io/MS-Word-Clone/',
       },
     ],
   },
@@ -284,27 +280,22 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'String Manipulator Tool',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'String Manipulator Tool',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'Html5,Css3,ES6',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://ifrashamim.github.io/String-Manipulator-Tool/',
       },
     ],
   },
@@ -312,27 +303,22 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Github Dev Finder',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Github Dev Finder',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Html5,Css3,ES6',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://ifrashamim.github.io/Github-Dev-Finder/',
       },
     ],
   },
@@ -340,27 +326,22 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Contact List Manager',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Contact List Manager',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Html5,Css3,ES6',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://ifrashamim.github.io/Contact-List-Manager/',
       },
     ],
   },
@@ -368,23 +349,19 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'BMI Calculator',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'BMI Calculator',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Html5,Css3,ES6',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://ifrashamim.github.io/BMI-Calculator/',
       },
     ],
   },
@@ -392,27 +369,22 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Notepad Clone',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Notepad Clone',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html5,Css3,ES6',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'https://ifrashamim.github.io/notepadClone/',
       },
     ],
   },
